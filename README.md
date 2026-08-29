@@ -70,5 +70,5 @@ the paper (citation to be updated on publication).
 
 ## Archive
 
-`archive/` contains superseded development versions (v1 network build, early
+`archive/` contains development versions (v1 network build, early
 PCM). They do not reproduce the paper and are kept for history only.
