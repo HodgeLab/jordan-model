@@ -3,8 +3,7 @@
 Repository for the paper *"An Open Synthetic Test System for the
 Jordanian Transmission Grid"* (submitted, IEEE Transactions on Power Systems).
 Calibration year **2018**. Every number in the paper regenerates from the
-public inputs and scripts here. The submission corresponds to tag
-**`v1.0-tpwrs`**.
+public inputs and scripts here.
 
 ## What this is
 
