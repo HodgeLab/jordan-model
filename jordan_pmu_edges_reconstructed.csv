@@ -1,0 +1,91 @@
+from_bus,to_bus,region,is_transformer,confidence,notes
+# ---- NORTH subsystem (red, buses 1-34) ----
+2,TIE_RAMALLAH,north,0,high,bus2 top-left = Ramallah tie bus (user-confirmed)
+2,16,north,0,low,top rail toward Amman West/16 - verify
+2,7,north,0,low,top rail drops near bus 7 - verify
+14,6,north,0,med,
+6,5,north,0,low,
+6,12,north,0,med,
+5,3,north,0,low,
+12,3,north,0,med,
+12,8,north,0,med,long horizontal 12->8
+3,4,north,0,high,adjacent near To Syria
+4,18,north,0,high,4 drops onto 18 busbar
+3,18,north,0,med,
+9,8,north,0,med,
+8,11,north,0,med,
+8,10,north,0,low,
+10,11,north,0,high,
+7,11,north,0,med,
+11,19,north,0,med,
+19,21,north,0,high,
+11,32,north,0,med,
+18,17,north,0,high,
+18,15,north,0,med,
+18,11,north,0,med,long horizontal run
+15,16,north,0,high,
+15,13,north,0,med,
+13,1,north,0,high,
+1,29,north,0,low,
+29,32,north,1,med,transformer coupling (400/132)
+29,30,north,1,med,transformer coupling (400/132)
+29,28,north,0,med,
+28,25,north,0,med,
+28,27,north,0,med,
+25,27,north,0,med,
+32,31,north,0,high,
+31,34,north,0,high,
+32,30,north,0,med,
+30,33,north,0,med,lower '34' label = bus 33
+30,20,north,0,high,
+4,TIE_SYRIA,north,0,med,To Syria arrow near bus 4
+# ---- CENTRAL subsystem (green, hub 40 + eastern fan 35) ----
+27,40,central,0,med,
+26,40,central,0,med,
+40,42,central,0,high,
+40,41,central,0,high,
+40,43,central,0,high,
+43,44,central,0,high,
+44,49,central,0,high,central-south bridge
+43,49,central,0,med,parallel bridge
+40,35,central,0,med,40 -> eastern hub 35
+35,37,central,0,high,
+35,39,central,0,med,
+35,38,central,0,med,
+35,24,central,0,med,
+35,23,central,0,med,
+35,22,central,0,med,
+36,22,central,0,med,
+36,30,central,0,med,
+20,36,central,0,low,
+# ---- SOUTH subsystem (black, buses 45-68) - user-verified ----
+49,48,south,0,med,
+48,47,south,0,high,
+48,46,south,0,med,
+49,50,south,0,high,
+49,45,south,0,high,user: 45 ties to both 49 and 50
+45,50,south,0,high,user: 45 ties to both 49 and 50
+50,52,south,0,high,corrected chain start
+52,54,south,0,high,
+54,55,south,0,high,
+55,56,south,0,high,chain end
+51,52,south,0,high,user: 51 -> 52 and 57
+51,57,south,0,high,user
+53,52,south,0,high,user: 53 -> 52 and 57
+53,57,south,0,high,user
+49,57,south,0,med,parallel verticals (likely double circuit)
+57,58,south,0,high,
+57,61,south,0,high,57 -> 61 (Aqaba)
+61,60,south,0,med,
+60,59,south,0,med,
+57,62,south,0,med,
+57,63,south,0,med,
+67,57,south,0,high,user
+67,66,south,0,high,user
+67,68,south,0,high,user: 67 also reaches 68
+68,65,south,0,high,
+64,62,south,0,high,user: 64 ties only to 62 and 65
+64,65,south,0,high,user: 64 ties only to 62 and 65
+66,63,south,0,low,rail link - verify
+61,62,south,0,low,rail from 61 - verify
+61,TIE_EGYPT,south,0,high,Aqaba 400kV submarine cable (550MW)
