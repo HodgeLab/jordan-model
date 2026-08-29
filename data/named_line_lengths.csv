@@ -1,0 +1,19 @@
+line,voltage_kv,circuits,length_km,source,note
+Samra - Amman West,400,2,70,"JICA T6.3-1 (2016)","OHTL triple bundle"
+Qatrana - Amman West,400,2,130,"JICA T6.3-1 (2016)","OHTL triple bundle"
+Qatrana - New Maan,400,2,150,"JICA T6.3-1 (2016)","Green Corridor 400"
+Amman West - Suweimeh,132,2,35,"JICA T6.3-1 (2016)",
+Amman West - Salt,132,2,15,"JICA T6.3-1 (2016)","superheated 1.5"
+Samra - Rehab,132,2,28.7,"JICA T6.3-1 (2018 reconductoring)",
+Samra - Rajihi,132,2,24,"JICA T6.3-1 (2018)",
+Rajihi - Rehab,132,1,24,"JICA T6.3-1 (2018)",
+Hasa - Tafila,132,2,40,"JICA T6.3-1 Green Corridor (2018)",
+Hasa - Qatrana,132,1,43.925,"JICA T6.3-1 (2018)",
+Hasa - Qatrana Cement,132,1,47.6,"JICA T6.3-1 (2018)",
+Qatrana - Qatrana Cement,132,1,7.3,"JICA T6.3-1 (2018)",
+Fujaij - Maan,132,2,50,"JICA T6.3-1 (2018 reconductoring)",
+Maan - New Maan (in-out),132,2,3,"JICA T6.3-1 (2018)",
+QAIA - Qatrana,132,2,60,"JICA T6.3-1 (2018)",
+King Hussein WF tap (Fujaij-Maan),132,1,5,"JICA T6.3-1 (2018)","Maan 80 MW connection"
+Rajef WF in-out (Quweira-Maan),132,2,48,"JICA T6.3-1 (2018)","48 km from Quweira"
+Tafila WF in-out (Hasa-Rashadia),132,2,7,"JICA T6.3-1 (2018)","7 km from Hasa"

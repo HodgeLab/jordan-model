@@ -1,0 +1,69 @@
+pmu_bus,degree,neighbors,pmu_subsystem,region,proposed_name,confidence,candidates_and_notes,pass2_name,pass2_conf,map_evidence,pass3_name,pass3_conf,pass3_evidence
+2,3,"7,16",north,MIDDLE,AMMAN_WEST,med,Ramallah tie comes off Amman West (anchor),AMMAN_WEST,high,Map: TO JERUSALEM arrow at Amman West; 400/132 since 2016 (T6.3-1) - anchor confirmed,AMMAN_WEST,high,Map: TO JERUSALEM arrow at Amman West; 400/132 since 2016 (T6.3-1) - anchor confirmed
+16,2,"2,15",north,MIDDLE,FUHEIS?,low,cand: Fuheis/Salt/Subeihi,FUHEIS?,low,,FUHEIS?,low,
+15,3,"13,16,18",north,MIDDLE,SALT?,low,cand: Subeihi/Salt/Bayader,SALT?,low,,SALT?,low,
+13,2,"1,15",north,MIDDLE,BAYADER?,low,cand: Bayader/New Bayader/University,BAYADER?,low,,BAYADER?,low,
+1,2,"13,29",north,MIDDLE,UNIVERSITY?,low,cand: University/City Center,UNIVERSITY?,low,,UNIVERSITY?,low,
+14,1,6,north,NORTH,WAQAS?,low,far-NW leaf near Syria/Ramallah; cand: Waqas/Irbid,WAQAS?,low,,WAQAS?,low,
+6,3,"5,12,14",north,NORTH,IRBID?,low,cand: Irbid/Irbid East/Ishtafina,IRBID?,low,,IRBID?,low,
+5,2,"3,6",north,NORTH,IRBID_EAST?,low,cand: Irbid East/Ishtafina/Hassan Ind,IRBID_EAST?,low,,IRBID_EAST?,low,
+3,4,"4,5,12,18",north,MIDDLE,AMMAN_NORTH,med,To-Syria-adjacent hub; cand: Amman North/Samra,AMMAN_NORTH,med,,AMMAN_NORTH_132,med,"with 4; note: no PMU edge to 7 (Amman North 400) - reconstruction artifact, footnote it"
+4,3,"3,18",north,MIDDLE,AMMAN_NORTH_TIE,med,To Syria arrow attaches here (anchor),SYRIA_TIE_NODE,med,"CHECK: map shows BOTH Syria ties (To Daraa 225kV blue, To Dir Ali 400kV red) leaving from the IRBID EAST area, not Amman North - the tie anchor may belong at 5/6, shifting 3/4",AMMAN_NORTH_TIE,high,MEZ: Dir Ali 400kV tie leaves from Amman North - pass-1 anchor correct; Daraa 132 tie is at Irbid (pin separately)
+12,3,"3,6,8",north,NORTH,MAFRAQ?,low,cand: Mafraq/Rehab/Rajihi Cement,MAFRAQ?,low,,MAFRAQ?,low,
+8,4,"9,10,11,12",north,NORTH,MAFRAQ?,low,cand: Mafraq/Sabha/Hashmya,MAFRAQ?,low,,MAFRAQ?,low,
+9,1,8,north,NORTH,SABHA?,low,leaf; cand: Sabha/Rajihi Cement,SABHA?,low,,SABHA?,low,
+10,2,"8,11",north,NORTH,DHULEIL?,low,cand: Dhuleil/Hashmya,DHULEIL?,low,,DHULEIL?,low,
+11,6,"7,8,10,18,19,32",north,MIDDLE,SAMRA_400?,med,major northern hub; cand: Samra(400)/Amman North(400),SAMRA_400,high,Map: Samra = northern 400 hub; Samra-Amman West 400kV 70km (T6.3-1) explains 11-7-2 corridor,SAMRA_400,high,Map: Samra = northern 400 hub; Samra-Amman West 400kV 70km (T6.3-1) explains 11-7-2 corridor
+7,2,"2,11",north,EAST,RUWEISHED?,low,top-right long eastern line; cand: Ruweished/El-Risha branch,AMMAN_NORTH_400?,low,"REVISED: 7 sits between Amman West(2) and Samra(11) = the 400 corridor, NOT the eastern El-Risha line; cand Amman North 400",AMMAN_NORTH_400,med,MEZ confirmed: on Samra-Amman West 400 corridor
+19,2,"11,21",north,EAST,SAFAWI?,low,eastern long line; cand: Safawi/Ruweished,SAFAWI_or_RUWEISHED,med,NOTE: map chain has THREE stations (Safawi-Ruweished-El-Risha) but pass-1 has two nodes - one merged in PMU Fig.3,SAFAWI,high,MEZ: junction node; Ruweished (small load) absorbed here in PMU figure
+21,1,19,north,EAST,EL_RISHA?,low,far-east leaf (El-Risha = end of long eastern line),EL_RISHA,high,"far-east leaf, unambiguous",EL_RISHA,high,MEZ: Risha plant anchor at Iraqi border
+18,5,"3,4,11,15,17",north,MIDDLE,AMMAN_NORTH_132,med,major 132 busbar hub,AMMAN_NORTH_132,med,,AMMAN_NORTH_132,med,
+17,1,18,north,MIDDLE,MARKA?,low,leaf off 18; cand: Marka/Tareq,MARKA?,low,,MARKA?,low,
+29,4,"1,28,30,32",north,MIDDLE,ZERQA?,low,cand: Zerqa/Hashmya/New Zarqa,ZERQA?,low,,ZERQA?,low,
+28,3,"25,27,29",central,MIDDLE,NEW_ZARQA?,low,cand: New Zarqa/Abdali,NEW_ZARQA?,low,,NEW_ZARQA?,low,
+25,2,"27,28",central,MIDDLE,ABDALI?,low,cand: Abdali/Hashmya,ABDALI?,low,,ABDALI?,low,
+27,3,"25,28,40",central,MIDDLE,CITY_CENTER?,low,links to central hub 40,CITY_CENTER?,low,,CITY_CENTER?,low,
+30,5,"20,29,32,33,36",north,EAST,AMMAN_EAST?,med,eastern 400 hub (transformer nbr); cand: Amman East/Samra(400),AMMAN_EAST,high,"Map: Amman East 400 hub with IPP3 adjacent; fans to Azraq eastward - matches neighbors {20,36}",AMMAN_EAST,high,"Map: Amman East 400 hub with IPP3 adjacent; fans to Azraq eastward - matches neighbors {20,36}"
+32,4,"11,29,30,31",north,MIDDLE,SAMRA?,med,400-area hub; cand: Samra/Amman East,SAMRA?,med,,SAMRA?,med,
+31,2,"32,34",north,EAST,HEZAM?,low,cand: Hezam/Manara,HEZAM?,low,,HEZAM?,low,
+34,1,31,north,EAST,MANARA?,low,leaf,MANARA?,low,,MANARA?,low,
+33,1,30,north,EAST,ASHRAFIAH?,low,leaf (lower '34' label = bus 33),ASHRAFIAH?,low,,ASHRAFIAH?,low,
+20,2,"30,36",central,EAST,AZRAQ?,low,cand: Azraq/Broadcasting,AZRAQ?,low,,AZRAQ?,low,
+36,3,"20,22,30",central,EAST,SAHAB?,low,eastern fan link; cand: Sahab/Mwaqar,SAHAB?,low,,SAHAB?,low,
+40,6,"26,27,35,41,42,43",central,MIDDLE,AMMAN_SOUTH_132,med,major central hub; cand: Amman South/Marka,AMMAN_SOUTH_132,med,,AMMAN_SOUTH_132,med,
+26,1,40,central,MIDDLE,ABDOON?,low,leaf,ABDOON?,low,,ABDOON?,low,
+41,1,40,central,MIDDLE,TAREQ?,low,leaf,TAREQ?,low,,TAREQ?,low,
+42,1,40,central,MIDDLE,ASHRAFIAH?,low,leaf,ASHRAFIAH?,low,,ASHRAFIAH?,low,
+35,7,"22,23,24,37,38,39,40",central,EAST,MWAQAR?,med,fans to eastern sites; cand: Mwaqar/Sahab hub,MWAQAR?,med,,MWAQAR?,med,
+22,2,"35,36",central,EAST,BROADCAST?,low,eastern fan; cand: Broadcasting/Azraq,BROADCAST?,low,,BROADCAST?,low,
+23,1,35,central,EAST,SAFAWI?,low,eastern fan leaf,SAFAWI?,low,,SAFAWI?,low,
+24,1,35,central,EAST,RUWEISHED?,low,eastern fan leaf,RUWEISHED?,low,,RUWEISHED?,low,
+37,1,35,central,EAST,MWQAR_IND?,low,eastern fan leaf,MWQAR_IND?,low,,MWQAR_IND?,low,
+38,1,35,central,EAST,SAHAB?,low,eastern fan leaf,SAHAB?,low,,SAHAB?,low,
+39,1,35,central,EAST,RESHA?,low,eastern fan leaf,RESHA?,low,,RESHA?,low,
+43,3,"40,44,49",central,MIDDLE,QAIA?,med,central-south bridge node,QAIA?,med,,QAIA?,med,
+44,2,"43,49",central,MIDDLE,MADABA_STH?,med,central-south bridge node,MADABA_STH?,med,,MADABA_STH?,med,
+49,6,"43,44,45,48,50,57",south,MIDDLE,AMMAN_SOUTH,med,southern gateway from central (anchor by position),AMMAN_SOUTH,med,,AMMAN_SOUTH,med,
+48,3,"46,47,49",south,SOUTH,QAIA?,low,cand: QAIA/Madaba South/Suweimeh,MADABA_SOUTH?,low,"REVISED from QAIA: QAIA is a MIDDLE/JEPCO BSP (region list), bus 48 is south-flagged - region contradiction rules QAIA out",MADABA_SOUTH?,med,QAIA ruled out by region (MEZ agreed)
+47,1,48,south,SOUTH,SUWEIMEH?,low,leaf (To Jerico end?),SUWEIMEH,med,Map: TO JERICO arrow at Suwimeh - leaf matches,SUWEIMEH,high,To Jerico end confirmed
+46,1,48,south,SOUTH,MADABA_STH?,low,leaf,MADABA_STH?,low,,MADABA_STH?,low,
+45,2,"49,50",south,SOUTH,MODERN_CEMENT?,low,cand: Modern Cement/Madaba,MODERN_CEMENT?,med,Map: Modern Cement on the Amman South-Qatrana corridor,MODERN_CEMENT?,med,Map: Modern Cement on the Amman South-Qatrana corridor
+50,3,"45,49,52",south,SOUTH,QATRANA?,low,toward Karak/Qatrana branch,QAIA?,med,REVISED from QATRANA: sits between Amman South(49) and hub 52 = QAIA-Qatrana 60km corridor (T6.3-1),QAIA,high,MEZ confirmed
+52,4,"50,51,53,54",south,SOUTH,KARAK?,low,sub-hub feeding 54-55-56 chain (Karak area),QATRANA_132_or_KARAK_HUB,low,hub feeding 54-55-56 chain + parallel 51/53 corridors - needs map read,KARAK_132_HUB,high,MEZ confirmed
+54,2,"52,55",south,SOUTH,KARAK_SOUTH?,low,Karak-area chain,KARAK?,med,chain 54-55-56 = Karak - New Karak - Ghor Safi (map: dead-end at Dead Sea),KARAK_SOUTH?,med,chain re-read with 52=Karak: 54-55-56 = Karak South/New Karak?/Ghor Safi - verify order
+55,2,"54,56",south,SOUTH,QATRANA_CEMENT?,low,chain,NEW_KARAK?,med,chain middle,NEW_KARAK?,med,chain middle
+56,1,55,south,SOUTH,GHOR_SAFI?,low,chain end,GHOR_SAFI?,med,chain end = Ghor Safi dead-end (map),GHOR_SAFI?,med,chain end = Ghor Safi dead-end (map)
+51,2,"52,57",south,SOUTH,EL_HASA?,low,parallel corridor 52-57,EL_HASA?,low,,EL_HASA,high,MEZ: Qatrana feeds south to El-Hasa first
+53,2,"52,57",south,SOUTH,RASHADIA?,low,parallel corridor 52-57,RASHADIA?,low,,RASHADIA,high,MEZ: terminal industrial node (58 already = Qatrana Cement)
+57,8,"49,51,53,58,61,62,63,67",south,SOUTH,QATRANA_or_NEW_MAAN,med,dominant southern hub; cand: Qatrana/New Maan,QATRANA,high,"REVISED from Qatrana-or-NewMaan: deg-8 = Qatrana's 400 (Aqaba 61, Amman South 49, New Maan 62) + 132 (QAIA/Hasa/QatranaCement) exactly",QATRANA,high,MEZ confirmed
+58,1,57,south,SOUTH,TAFILA?,low,leaf,QATRANA_CEMENT?,med,REVISED from TAFILA: leaf off Qatrana at 7.3 km (T6.3-1 Qatrana-Qatrana Cement); Tafila is NOT Qatrana-adjacent (it hangs on Hasa-Rashadia),QATRANA_CEMENT,high,MEZ confirmed
+61,4,"57,60,62",south,SOUTH,AQABA,high,To Egypt anchor,AQABA,high,Egypt tie (Taba) anchor; 400 kV southern terminus,AQABA,high,Egypt tie (Taba) anchor; 400 kV southern terminus
+60,2,"59,61",south,SOUTH,AQ_IND?,low,Aqaba cluster,AQABA_IND,med,Map: Aqaba Ind + A2 cluster adjacent to Aqaba,AQABA_IND,med,Map: Aqaba Ind + A2 cluster adjacent to Aqaba
+59,1,60,south,SOUTH,AQ_A2?,low,Aqaba cluster leaf,AQABA_A2,med,Map cluster leaf,AQABA_A2,med,Map cluster leaf
+62,3,"57,61,64",south,SOUTH,MAAN?,low,deep-south hub; cand: Maan/Quweira,NEW_MAAN_400?,med,"REVISED from MAAN: 57-62 = Qatrana-New Maan 400kV 150km (2016, T6.3-1); Maan town 132 is nearby via 3km in-out",NEW_MAAN_400,high,MEZ confirmed
+64,2,"62,65",south,SOUTH,QUWEIRA?,low,cand: Quweira/Shedia/Disi,QUWEIRA?,low,,QUWEIRA,high,MEZ confirmed; Quweira Solar host
+65,2,"64,68",south,SOUTH,DESI?,low,cand: Desi/Shedia,DESI?,low,,DISI,med,MEZ: Quweira-Disi direct toward Aqaba
+68,2,"65,67",south,SOUTH,SHEDIA?,low,cand: Shedia/Disi,SHEDIA?,low,,SHEDIA,med,MEZ: Shedia on separate branch toward Maan
+67,3,"57,66,68",south,SOUTH,RASHADIA?,low,cand: Rashadia/Tafila/Fujij,RASHADIA?,low,,TAFILA?,low,"by elimination (Hasa=51, Rashadia=53, Fujij=66); PMU edge to 57 not on map - verify"
+66,2,"63,67",south,SOUTH,FUJIJ?,low,cand: Fujij/Hussain University,FUJIJ?,low,,FUJIJ,med,MEZ: Fujeij further north near Shobak; fits 63-66-67 chain
+63,2,"57,66",south,SOUTH,HUSSAIN_UNIV?,low,cand: Hussain University/Maan Solar,HUSSAIN_UNIV?,low,,MAAN_RE_HUB,high,MEZ: Hussain Univ (wind 80) + Maan Solar merged - hosts Maan-area RE
