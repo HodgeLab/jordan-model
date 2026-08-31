@@ -5,7 +5,7 @@ Jordanian Transmission Grid"* (submitted, IEEE Transactions on Power Systems).
 Calibration year **2018**. Every number in the paper regenerates from the
 public inputs and scripts here.
 
-## What this is
+## Preliminaries
 
 A synthetic, validated transmission test system for the Jordanian national
 grid — 81 solved nodes (68 substations, 13 split 400/132 kV), a plant-level
