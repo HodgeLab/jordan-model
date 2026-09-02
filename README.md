@@ -46,14 +46,6 @@ Regenerating the weather-driven profiles from scratch is optional (the
 generated CSVs are in the repo) and requires an NSRDB API key and a
 Renewables.ninja token in `src/re_profiles_2018.py`.
 
-## Validation protocol
-
-Parameters are set from cited sources or labeled assumptions **before** any
-comparison with the 2018 record. Algorithm-correctness fixes are permitted
-with a single rerun and then frozen. No parameter is ever adjusted against
-the validation year. Two disclosed calibrations exist (the Risha
-fuel-deliverability cap and the load temperature coefficient), both to
-calibration anchors, never to validation targets.
 
 ## Requirements
 
