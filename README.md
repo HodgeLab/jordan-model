@@ -1,4 +1,4 @@
-# jordan-model — An Open Synthetic Test System for the Jordanian Transmission Grid
+# An Open Synthetic Test System for the Jordanian Transmission Grid
 
 Repository for the paper *"An Open Synthetic Test System for the
 Jordanian Transmission Grid"* (submitted, IEEE Transactions on Power Systems).
